@@ -6,6 +6,9 @@
 // - Find bugs
 // - Optimize the algorithm.
 // - Use all processors in the system.
+// - Change the program to allow truly gigantic numbers.
+// - What happens today if we just pass a number that is too large?
+// - How much memory do we need for really large numbers?
 //
 // Written as an example by Marco Paganini <paganini@paganini.net>,
 // in literally 10 minutes. This is probably buggy and unoptimized.
