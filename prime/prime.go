@@ -38,19 +38,15 @@ func main() {
 	halfway := int(math.Ceil(math.Sqrt(float64(maxNum))))
 
 	// Fill-in the sieve and print lower half primes.
-	for n := 2; n <= halfway; n++ {
+	for n := 2; n <= maxNum; n++ {
 		if !sieve[n-1] {
 			fmt.Println(n, "is prime")
+		}
+		// Fill remaining if under square root of number
+		if n <= halfway {
 			for idx := (n - 1); idx < maxNum; idx += n {
 				sieve[idx] = true
 			}
-		}
-	}
-
-	// Print upper half primes.
-	for n := halfway + 1; n <= maxNum; n++ {
-		if !sieve[n-1] {
-			fmt.Println(n, "is prime")
 		}
 	}
 }
