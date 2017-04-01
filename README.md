@@ -18,6 +18,13 @@ Projeto para o aprendizado de GoLang - grupo OsProgramadores: https://t.me/ospro
 
 * Liste seu nome, email e conta no twitter se tiver abaixo
 * use o seguinte formato:
+* Nome = Fábio
+* email: fabio20rj@gmail.com  
+* twitter: @ffabiorj
+
+
+* Liste seu nome, email e conta no twitter se tiver abaixo
+* use o seguinte formato:
 * Nome =
 * email: 
 * twitter:
